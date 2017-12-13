@@ -1,0 +1,35 @@
+{
+  "name": "canvas-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "babel": "babel main.es6.js --watch --out-file main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andvarp/canvasGraph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andvarp/canvasGraph/issues"
+  },
+  "homepage": "https://github.com/andvarp/canvasGraph#readme",
+  "dependencies": {
+    "babel-cli": "^7.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.34",
+    "@babel/preset-env": "^7.0.0-beta.34"
+  },
+  "babel": {
+    "presets": [
+      ["@babel/preset-env", {
+        "targets": {
+          "browsers": ["last 2 versions", "safari >= 7"]
+        }
+      }]
+    ]
+  }
+}
